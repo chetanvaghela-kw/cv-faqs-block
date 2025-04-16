@@ -1,0 +1,162 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+	 
+.cv-faqs-blocks-section-wrapper {
+	border: 1px dotted #213745;
+	max-width: 1400px;
+	padding-top: 4.5rem;
+	padding-bottom: 4.5rem;
+	
+	@media (min-width: 1024px) {
+		padding-top: 2.25rem;
+		padding-bottom: 2.25rem;
+	}
+	.cv-container
+	{
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 958px;
+		padding-left: 1rem;
+		padding-right: 1rem;
+
+		.cv-faqs-blocks-heading{
+			padding-bottom: 3rem;
+			text-align: center;
+			
+			@media (min-width: 1024px) {
+				padding-bottom: 2rem;
+			}    
+		}
+		.cv-faqs-block-faq-section
+		{
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+		}
+
+		.cv-faqs-block-faq-item{
+			border: 1px solid #000;
+			padding: 20px;			
+			margin-bottom: 1rem;
+			background-color: #e5e7eb;
+			border-top: 1px solid #718096;
+		
+			@media (min-width: 1024px) {
+				padding-top: 1.5rem;
+				padding-bottom: 1.5rem;
+			}    
+
+			.cv-delete-question-btn {
+				height: 30px;
+				margin-top: 15px;
+			}
+		}
+
+		.cv-faqs-block-faq-item-heading{
+			font-weight: 500;
+			width: calc(100%);
+			font-size: 1.5rem;
+			color: #000000;
+			border: 0;
+			background: transparent;
+
+		
+
+			.cv-faqs-block-faq-item-title{
+				display: flex;
+				text-align: left;
+				justify-content: space-between;
+				gap: 1.5rem;
+
+				.cv-faqs-icons{
+					width: 2rem;
+					height: 2rem;
+					transition: all 0.3s ease;
+					
+					@media (min-width: 1024px) {
+						width: 1.5rem;
+						height: 1.5rem;
+					}
+		
+				}
+
+				.cv-rotate-180
+				{
+					transform: rotate(180deg);
+				}
+	
+			}
+		}
+
+		.cv-faq-block-accordion-content
+		{
+			transition: all 0.3s ease;
+				overflow: hidden;
+			
+			.cv-faq-block-accordion-content-inner{
+				padding-top: 1.5rem;
+				font-size: 1.125rem;
+				
+				@media (min-width: 1024px) {
+					padding-top: 0.5rem;
+				}
+
+				.cv-faq-item-content
+				{
+					padding-top: 10px;
+					padding-bottom: 10px;
+				}
+				.cv-faq-block-accordion-content-list-item{
+					display: flex;
+					flex-wrap: wrap;
+
+					.cv-list-item-delete-btn
+					{
+						height: 25px;
+						padding: 8px;
+					}
+					.cv-faq-block-accordion-content-list-item-text
+					{
+						padding-left: 10px;
+					}
+	
+				}
+
+				.cv-faq-block-accordion-content-list-item-btn
+				{
+					margin-left: 20px;  // Ensures proper indentation for bullets
+					padding-left: 20px; 
+					padding-top: 10px;
+
+					button{
+						height: 25px;
+					}
+				}
+		
+			}
+
+			
+			ul {
+				list-style-type: disc; 
+				margin-left: 20px;  // Ensures proper indentation for bullets
+				padding-left: 20px; 
+			}						
+		}
+
+		.cv-max-h-screen{
+			max-height: 100vh;
+		
+		}
+		.cv-max-h-0
+		{
+			max-height: 0;
+		}
+		
+	}
+	
+}
+

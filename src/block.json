@@ -1,0 +1,19 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "cv-blocks/faqs-section",
+	"version": "0.1.0",
+	"title": "FAQs (CV)",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "FAQs (CV)",
+	"example": {},
+	"supports": {
+		"html": true
+	},
+	"textdomain": "cv-faqs-block",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"viewScript": ["cv-faqs-block"],
+	"style": ["cv-faqs-block"]
+}
